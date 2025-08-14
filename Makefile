@@ -1,5 +1,5 @@
 # GBA rom header
-TITLE       := POKEMON EMER
+TITLE       := POKEMON AETH
 GAME_CODE   := BPEE
 MAKER_CODE  := 01
 REVISION    := 0
@@ -158,6 +158,10 @@ SCANINC      := $(TOOLS_DIR)/scaninc/scaninc$(EXE)
 PREPROC      := $(TOOLS_DIR)/preproc/preproc$(EXE)
 RAMSCRGEN    := $(TOOLS_DIR)/ramscrgen/ramscrgen$(EXE)
 FIX          := $(TOOLS_DIR)/gbafix/gbafix$(EXE)
+TITLE ?= POKEMON AETHER
+GAME_CODE ?= BPEE
+MAKER_CODE ?= 01
+REVISION ?= 0
 MAPJSON      := $(TOOLS_DIR)/mapjson/mapjson$(EXE)
 JSONPROC     := $(TOOLS_DIR)/jsonproc/jsonproc$(EXE)
 TRAINERPROC  := $(TOOLS_DIR)/trainerproc/trainerproc$(EXE)
