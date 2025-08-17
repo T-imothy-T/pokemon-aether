@@ -639,17 +639,17 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_WATER_1),
         .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_DAMP },
         .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Mudkip"),
+        .speciesName = _("Brinlet"),
         .cryId = CRY_MUDKIP,
         .natDexNum = NATIONAL_DEX_MUDKIP,
         .categoryName = _("Mud Fish"),
         .height = 4,
         .weight = 76,
         .description = COMPOUND_STRING(
-            "On land, it can powerfully lift large\n"
-            "boulders by planting its four feet and\n"
-            "heaving. It sleeps by burying itself in soil\n"
-            "at the water's edge."),
+             "Brinlet lives in cool streams and\n"
+    "ponds. Its fins sense tiny changes\n"
+    "in water currents, allowing it to\n"
+    "detect foes approaching."),
         .pokemonScale = 535,
         .pokemonOffset = 20,
         .trainerScale = 256,
@@ -672,7 +672,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .palette = gMonPalette_Mudkip,
         .shinyPalette = gMonShinyPalette_Mudkip,
         .iconSprite = gMonIcon_Mudkip,
-        .iconPalIndex = 0,
+        .iconPalIndex = 6,
         .pokemonJumpType = PKMN_JUMP_TYPE_NORMAL,
         SHADOW(1, 1, SHADOW_SIZE_S)
         FOOTPRINT(Mudkip)
