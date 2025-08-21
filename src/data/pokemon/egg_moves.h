@@ -2385,15 +2385,15 @@ static const u16 sTorchicEggMoveLearnset[] = {
 
 #if P_FAMILY_MUDKIP
 static const u16 sMudkipEggMoveLearnset[] = {
-    MOVE_REFRESH,
-    MOVE_UPROAR,
-    MOVE_CURSE,
+    MOVE_BRINE,
+    MOVE_BREAKING_SWIPE,
+    MOVE_TWISTER,
     MOVE_STOMP,
     MOVE_ICE_BALL,
     MOVE_MIRROR_COAT,
     MOVE_COUNTER,
     MOVE_ANCIENT_POWER,
-    MOVE_WHIRLPOOL,
+    MOVE_ICY_WIND,
     MOVE_BITE,
     MOVE_DOUBLE_EDGE,
     MOVE_MUD_BOMB,
