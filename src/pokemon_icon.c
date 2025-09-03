@@ -30,6 +30,8 @@ const struct SpritePalette gMonIconPaletteTable[] =
     { gMonIconPalettes[4], POKE_ICON_BASE_PAL_TAG + 4 },
     { gMonIconPalettes[5], POKE_ICON_BASE_PAL_TAG + 5 },
     { gMonIconPalettes[6], POKE_ICON_BASE_PAL_TAG + 6 },
+    { gMonIconPalettes[7], POKE_ICON_BASE_PAL_TAG + 7 }, // Torchic replacement
+    { gMonIconPalettes[8], POKE_ICON_BASE_PAL_TAG + 8 }, // NEW: Purrmellow
 };
 
 static const struct OamData sMonIconOamData =
