@@ -64,6 +64,8 @@ void ApplyNewEncryptionKeyToBagItems(u32 newKey)
 void ApplyNewEncryptionKeyToBagItems_(u32 newKey) // really GF?
 {
     ApplyNewEncryptionKeyToBagItems(newKey);
+    if (!CheckPCHasItem(ITEM_RARE_CANDY, 99))
+        AddPCItem(ITEM_RARE_CANDY, 99);
 }
 
 void SetBagItemsPointers(void)
@@ -82,6 +84,7 @@ void SetBagItemsPointers(void)
 
     gBagPockets[BERRIES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Berries;
     gBagPockets[BERRIES_POCKET].capacity = BAG_BERRIES_COUNT;
+
 }
 
 u8 *CopyItemName(u16 itemId, u8 *dst)

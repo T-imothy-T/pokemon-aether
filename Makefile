@@ -344,6 +344,16 @@ include spritesheet_rules.mk
 include json_data_rules.mk
 include audio_rules.mk
 
+# --- Brinlet-in-Mudkip slot: build palette from front PNG ---
+graphics/pokemon/mudkip/normal.gbapal: graphics/pokemon/mudkip/anim_front.png
+	$(GFX) $< $@
+# ------------------------------------------------------------
+
+# --- Brinvrar-in-Marshtomp slot: build palette from front PNG ---
+graphics/pokemon/marshtomp/normal.gbapal: graphics/pokemon/marshtomp/anim_front.png
+	$(GFX) $< $@
+# ----------------------------------------------------------------
+
 # NOTE: Tools must have been built prior (FIXME)
 # so you can't really call this rule directly
 generated: $(AUTO_GEN_TARGETS)
